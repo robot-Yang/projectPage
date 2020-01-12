@@ -8,7 +8,7 @@ avatarTitle: stidio
 avatarDesc: 编程·管理·运动·读书
 url: https://robot-yang.github.io
     # https://robot-yang.github.io/projectPage/tags/
-# baseurl: /projectPage
+baseurl: /projectPage
 
 # Comment
 comment:
