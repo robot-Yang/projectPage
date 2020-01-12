@@ -6,8 +6,9 @@ description: 凡是过去 皆为序章
 avatarTitle: stidio
 # 头像里面的描述
 avatarDesc: 编程·管理·运动·读书
-url: https://robot-yang.github.io/projectPage
+url: https://robot-yang.github.io
     # https://robot-yang.github.io/projectPage/tags/
+baseurl: /projectPage
 
 # Comment
 comment:
@@ -56,9 +57,9 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 存档, description: archive, url: '/projectPage/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于, description: about, url: '/about'}      
+    - {title: 存档, description: archive, url: '{{ site.baseurl }}/archive'}   
+    - {title: 标签, description: tags, url: '{{ site.baseurl }}/tags'}      
+    - {title: 关于, description: about, url: '{{ site.baseurl }}/about'}      
     
 
 # Pagination
