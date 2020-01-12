@@ -8,7 +8,7 @@ avatarTitle: stidio
 avatarDesc: 编程·管理·运动·读书
 url: https://robot-yang.github.io
     # https://robot-yang.github.io/projectPage/tags/
-baseurl: /projectPage
+# baseurl: /projectPage
 
 # Comment
 comment:
@@ -58,8 +58,8 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     - {title: 存档, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/projectPage/tags'}      
-    - {title: 关于, description: about, url: '/projectPage/about'}      
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于, description: about, url: '/about'}      
     
 
 # Pagination
